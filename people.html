@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/underscore-min.js"></script>
+        <script src="js/fa-all.js" data-auto-replace-svg="nest"></script>
+
+        <link type="text/css" rel="stylesheet" href="css/custom.css" />
+        <link type="text/css" rel="stylesheet" href="css/hover-min.css" />
+        <link type="text/css" rel="stylesheet" href="css/academicons.min.css" />
+
+        <title>VRL Lab Members</title>
+
+        <script type="text/javascript">
+            function draw_card(profile){
+                divStr = '<div class="card" style="width: 18rem;"><img class="card-img-top" src="data/people/' + profile['img'] + '" alt="Card image cap"> <div class="card-body">';
+                divStr += '<h5 class="card-title">' + profile['name'] + '</h5>';
+                divStr += '<p class="card-text">' + profile['about'] + '</p>';
+
+                if('website' in profile['links']) {
+                    divStr += '<a href="' + profile['links']['website'] + '" style="margin-right:5px;"><i class="fas fa-home fa-2x"></i></a>'
+                }
+
+                if('scholar' in profile['links']) {
+                    divStr += '<a href="' + profile['links']['scholar'] + '" style="margin-right:5px;"><i class="ai ai-google-scholar ai-2x"></i></a>'
+                }
+
+                if('orcid' in profile['links']) {
+                    divStr += '<a href="' + profile['links']['orcid'] + '" style="margin-right:5px;"><i class="ai ai-orcid ai-2x"></i></a>'
+                }
+
+                if('twitter' in profile['links']) {
+                    divStr += '<a href="' + profile['links']['twitter'] + '" style="margin-right:5px;"><i class="fab fa-twitter fa-2x"></i></a>'
+                }
+
+                if('linkedin' in profile['links']) {
+                    divStr += '<a href="' + profile['links']['linkedin'] + '" style="margin-right:5px;"><i class="fab fa-linkedin fa-2x"></i></a>'
+                }
+
+                //'<a href="#" class="btn btn-primary">Go somewhere</a>'
+                divStr += '</div></div>';
+                return divStr;
+            }
+
+            function prepare_user_cards(profiles){
+                console.log(profiles);
+                var typeRank = ['PI','PhD','MSc','Undergraduate','Collaborator','Alumni'];
+                console.log(typeRank);
+                for (var t=0; t < typeRank.length; t++) {
+                    console.log(typeRank[t]);
+                    plist = _.filter(profiles, function(p){ return p['role'] == typeRank[t]; });
+                    console.log(plist);
+                    if(plist.length > 0){
+                        var extension = '';
+                        if (['PhD','MSc','Undergraduate'].includes(typeRank[t])){
+                            extension = ' students';
+                        }
+                        if (typeRank[t] == 'Collaborator'){
+                            extension = 's';
+                        }
+                        var mstr = '<h3>' + typeRank[t] + extension + '</h3><div class="card-columns">';
+                        for (var i=0; i<plist.length; i++){
+                            mstr += draw_card(plist[i]);
+                        }
+                        mstr += '</div>';
+                        $('#member-container').append(mstr);
+                    }
+                }
+            }
+
+            $(document).ready(function () {
+                $('#header-container').load('template_header.html');
+                $('#footer-container').load('template_footer.html');
+
+                $.getJSON('data/people/people.json',
+                    function (json) {
+                        prepare_user_cards(json);
+                });
+
+            });
+        </script>
+
+    </head>
+
+    <body>
+        <div id="header-container"></div>
+        <div class="jumbotron" style="background-image: url(img/bg-people.jpeg);"></div>
+
+        <div class="container">
+            <div class="alert alert-primary" role="alert">
+                <i class="fas fa-puzzle-piece"></i> We are always looking for highly motivated students to join our group. Write me an e-mail if you are interested.
+            </div>
+            <div id="member-container"></div>
+        </div>
+        <br>
+        <div id="footer-container"></div>
+    </body>
+
+</html>

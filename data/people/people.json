@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Onur Varol",
+        "role": "PI",
+        "img": "pictures/onur-varol.jpg",
+        "about": "researcher📊, coder💻, and dreamer💭",
+        "links": {
+            "website": "http://www.onurvarol.com",
+            "scholar": "https://scholar.google.com/citations?user=t8YAefAAAAAJ",
+            "orcid": "https://orcid.org/0000-0002-3994-6106",
+            "twitter": "https://twitter.com/onurvarol",
+            "linkedin": "https://www.linkedin.com/in/onurvarol/"
+        }
+    },
+
+    {
+        "name": "Ismail Uluturk",
+        "role": "Collaborator",
+        "img": "pictures/ismail-uluturk.jpg",
+        "about": "",
+        "links": {
+            "website": "http://uluturki.github.io/",
+            "scholar": "https://scholar.google.com/citations?user=WmKu3G0AAAAJ",
+            "twitter": "https://twitter.com/strictlynofun",
+            "linkedin": "https://www.linkedin.com/in/ismail-uluturk-a3194328/"
+        }
+    }
+]
