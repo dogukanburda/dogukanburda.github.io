@@ -1,0 +1,837 @@
+[
+    {
+        "type": "preprint",
+        "year": 2021,
+        "topics": ["Comp. Soc. Sci."],
+        "image": "images/social-annotate.png",
+        "text": "<b>Social-Annotate: Browser extension to annotate and collect social media data</b><br>Uluturk I., <u>Varol O.</u><br><i>Under review in JOSS</i>",
+        "links":[
+            {
+                "source": "https://github.com/uluturki/social-annotate",
+                "name": "Github"
+            },
+            {
+                "source": "https://www.youtube.com/watch?v=rSJiVwJzM2k",
+                "name": "Youtube"
+            }
+        ]
+    },
+    {
+        "type": "preprint",
+        "year": 2021,
+        "topics": ["Network Science"],
+        "image": "images/covid-barabasi.png",
+        "text": "<b>Network Medicine Framework for Identifying Drug Repurposing Opportunities for COVID-19</b><br>Gysi D., Do Valle I., Zitnik M., Ameli A., Gan X., <u>Varol O.</u>, Sanchez H., Baron R., Ghiassian D., Loscalzo J., Barabasi AL.<br><i>Under review</i>",
+        "links": [
+            {
+                "source": "https://arxiv.org/abs/2004.07229",
+                "name": "ArXiv"
+            },
+            {
+                "source": "https://twitter.com/barabasi/status/1250789854469861377",
+                "name": "twitter"
+            }
+        ]
+    },
+    {
+        "type": "preprint",
+        "year": 2021,
+        "topics": ["Machine Learning", "Data Science"],
+        "image": "images/l2p_fig.png",
+        "text": "<b>L2P: Algorithm for estimating heavy-tailed outcomes</b><br>Wang X., <u>Varol O.</u>, Eliassi-Rad T.<br><i>Under review</i>",
+        "links": [
+            {
+                "source": "https://arxiv.org/abs/1908.04628",
+                "name": "ArXiv"
+            },
+            {
+                "source": "http://xindi-dumbledore.github.io/L2P",
+                "name": "Website"
+            }
+        ]
+    },
+    {
+        "type": "journal",
+        "year": 2020,
+        "topics": ["Comp. Soc. Sci.", "Data Science"],
+        "image": "images/pnas2020ffc.png",
+        "text": "<b>Measuring the predictability of life outcomes with a scientific mass collaboration</b><br>Fragile Families Challenge Team<br><i>PNAS</i> 117.15 (2020): 8398-8403.",
+        "links":[
+            {
+                "source": "https://www.pnas.org/content/early/2020/03/24/1915006117",
+                "name": "Journal page"
+            },
+            {
+                "source": "files/2020-ffc.pdf",
+                "name": "PDF"
+            },
+            {
+                "source": "https://twitter.com/onurvarol/status/1245407869698277379",
+                "name": "twitter"
+            },
+            {
+                "source": "bibtex/pnas2020ffc.bib",
+                "name": "BibTeX"
+            }
+        ]
+    },
+    {
+        "type": "journal",
+        "year": 2019,
+        "topics": ["Comp. Soc. Sci.", "Data Science"],
+        "image": "images/jcss2019journalist.png",
+        "text": "<b>Journalists on Twitter: Self-branding, Audiences, and Involvement of Bots</b><br><u>Varol O.</u>, Uluturk I. <br><i>Journal of Computational Social Science (2019): 1-19.</i>",
+        "links":[
+            {
+                "source": "https://link.springer.com/article/10.1007/s42001-019-00056-6",
+                "name": "Journal page"
+            },
+            {
+                "source": "files/2019-journalism-bots.pdf",
+                "name": "PDF"
+            },
+            {
+                "source": "https://twitter.com/onurvarol/status/1187378399356084226",
+                "name": "twitter"
+            },
+            {
+                "source": "bibtex/jcss2019journalist.bib",
+                "name": "BibTeX"
+            }
+        ]
+    },
+    {
+        "type": "journal",
+        "year": 2019,
+        "topics": ["Data Science", "Network Science"],
+        "image": "images/book2019epjds.png",
+        "text": "<b>Success in Books: Predicting Book Sales Before Publication</b><br>Wang X., Yucesoy B., <u>Varol O.</u>, Eliassi-Rad T., Barabasi AL.<br><i>EPJ Data Science 8.1 (2019): 31</i>",
+        "links":[
+            {
+                "source": "https://link.springer.com/article/10.1140/epjds/s13688-019-0208-6",
+                "name": "Journal page"
+            },
+            {
+                "source": "https://twitter.com/barabasi/status/1186262007286239233",
+                "name": "twitter"
+            },
+            {
+                "source": "bibtex/book2019epjds.bib",
+                "name": "BibTeX"
+            }
+        ]
+    },
+    {
+        "type": "journal",
+        "year": 2019,
+        "topics": ["Machine Learning"],
+        "image": "images/hbet2019bot.png",
+        "text": "<b>Arming the public with artifical intelligence to counter social bots</b><br>Yang K., <u>Varol O.</u>, Davis C., Menczer F., Flammini A.<br><i>Human Behavior and Emerging Technologies, 2019</i>",
+        "links": [
+            {
+                "source": "https://onlinelibrary.wiley.com/doi/full/10.1002/hbe2.115",
+                "name": "Journal page"
+            },
+            {
+                "source": "https://arxiv.org/abs/1901.00912",
+                "name": "ArXiv"
+            },
+            {
+                "source": "bibtex/hbet2019bot.bib",
+                "name": "BibTeX"
+            }
+        ]
+    },
+    {
+        "type": "journal",
+        "year": 2018,
+        "topics": ["Comp. Soc. Sci.", "Data Science"],
+        "image": "images/nhb2018emotions.png",
+        "text": "<b>The minute-scale dynamics of online emotions reveal the effects of affect labeling</b><br>R. Fan,  <u>O. Varol</u>, A. Varamesh, A. Barron, I. Leemput, M. Scheffer, J. Bollen<br><i>Nature Human Behavior, 2018</i>",
+        "links": [
+            {
+                "source": "https://rdcu.be/bdG9l",
+                "name": "Journal page"
+            },
+            {
+                "source": "https://arxiv.org/abs/1807.09725",
+                "name": "ArXiv"
+            },
+            {
+                "source": "bibtex/nhb2018emotions.bib",
+                "name": "BibTeX"
+            }
+        ],
+        "coverage":[
+            {
+                "source": "https://www.nature.com/articles/s41562-018-0487-0",
+                "name": "NHB Review"
+            },
+            {
+                "source": "https://socialsciences.nature.com/users/199233-johan-bollen/posts/42357-measuring-the-effects-of-expressing-your-feeling-on-social-media",
+                "name": "Nature Blog"
+            },
+            {
+                "source": "https://www.sice.indiana.edu/news/story.html?story=Bollen-study-shows-affect-labeling-can-help-moderate-emotions",
+                "name": "IU SICE News"
+            },
+            {
+                "source": "https://medium.com/s/story/use-this-trick-to-find-tranquility-7252370a86d4",
+                "name": "Medium"
+            }
+        ]
+    },
+    {
+        "type": "journal",
+        "year": 2018,
+        "topics": ["Comp. Soc. Sci."],
+        "image": "images/ncomm2018spread.png",
+        "text": "<b>The spread of low-credibility content by social bots</b><br>C. Shao, GL Ciampaglia, <u>O. Varol</u>, K. Yang, A. Flammini, F. Menczer<br><i>Nature Communications 9: 4787, 2018</i>",
+        "links": [
+            {
+                "source": "https://www.nature.com/articles/s41467-018-06930-7",
+                "name": "Journal page"
+            },
+            {
+                "source": "https://arxiv.org/abs/1707.07592",
+                "name": "ArXiv"
+            },
+            {
+                "source": "bibtex/ncomm2018spread.bib",
+                "name": "BibTeX"
+            }
+        ],
+        "coverage":[
+            {
+                "source": "https://news.iu.edu/stories/2018/11/iub/releases/20-twitter-bots-election-misinformation.html",
+                "name": "IU Newsroom"
+            },
+            {
+                "source": "https://www.technologyreview.com/s/608561/first-evidence-that-social-bots-play-a-major-role-in-spreading-fake-news/",
+                "name": "MIT Technology Review"
+            },
+            {
+                "source": "https://www.sciencenews.org/article/twitter-bots-fake-news-2016-election",
+                "name": "ScienceNews"
+            },
+            {
+                "source": "https://www.poynter.org/news/bots-spread-lot-fakery-during-2016-election-they-can-also-debunk-it",
+                "name": "Poynter"
+            },
+            {
+                "source": "http://www.onurvarol.com/apps/coverages/index.html#HoaxyBots",
+                "name": "More ..."
+            }
+        ]
+    },
+    {
+        "type": "journal",
+        "year": 2018,
+        "topics": ["Comp. Soc. Sci."],
+        "image": "images/varol2018deception.png",
+        "text": "<b>Deception strategies and threats for online discussions</b><br><u>Varol O.</u>,  Uluturk I.<br><i>First Monday 22(5), 2018</i>",
+        "links": [
+            {
+                "source": "http://firstmonday.org/ojs/index.php/fm/article/view/7883/7208",
+                "name": "Journal page"
+            },
+            {
+                "source": "https://arxiv.org/abs/1906.11371",
+                "name": "ArXiv"
+            },
+            {
+                "source": "bibtex/varol2018deception.bib",
+                "name": "BibTeX"
+            }
+        ]
+    },
+    {
+        "type": "journal",
+        "year": 2017,
+        "topics": ["Machine Learning", "Data Science"],
+        "image": "images/varol2017early.png",
+        "text": "<b>Early Detection of Promoted Campaigns on Social Media</b><br><u>Varol O.</u>, Ferrara E., Menczer F., & Flammini A.<br><i>EPJ Data Science 6(13), 2017</i>",
+        "links": [
+            {
+                "source": "https://doi.org/10.1140/epjds/s13688-017-0111-y",
+                "name": "Journal page"
+            },
+            {
+                "source": "https://arxiv.org/abs/1703.07518",
+                "name": "ArXiv"
+            },
+            {
+                "source": "bibtex/varol2017early.bib",
+                "name": "BibTeX"
+            }
+        ],
+        "coverage": [
+            {
+                "source": "http://blogs.springeropen.com/springeropen/2017/07/06/social-media-trending-real-or-manufactured/",
+                "name": "SpringerOpen"
+            },
+            {
+                "source": "https://www.newscientist.com/article/2093180-algorithm-knows-when-corporate-money-is-pushing-memes-online/",
+                "name": "New Scientist"
+            },
+            {
+                "source": "http://www.onurvarol.com/apps/coverages/index.html#CampignDetection",
+                "name": "More ..."
+            }
+        ]
+    },
+    {
+        "type": "journal",
+        "year": 2016,
+        "topics": ["Machine Learning", "Comp. Soc. Sci."],
+        "image": "images/ics2016gezi.png",
+        "text": "<b>Combining Content Analysis with Network Analysis in the Study of a Social Movement: Twitter Use During Gezi Park Protests</b><br>C. Ogan, <u>O. Varol</u><br><i>Information, Communication & Society (2016): 1-19.</i>",
+        "links": [
+            {
+                "source": "http://www.tandfonline.com/doi/full/10.1080/1369118X.2016.1229006",
+                "name": "Journal page"
+            },
+            {
+                "source": "bibtex/ics2016gezi.bib",
+                "name": "BibTeX"
+            }
+        ]
+    },
+    {
+        "type": "journal",
+        "year": 2016,
+        "topics": ["Comp. Soc. Sci."],
+        "image": "images/cacm2016bots.jpg",
+        "text": "<b>The Rise of Social Bots</b><br>E. Ferrara, <u>O. Varol</u>, C. Davis, F. Menczer, A. Flammini<br><i>Communications of the ACM 59(7), 2016</i>",
+        "links": [
+            {
+                "source": "http://cacm.acm.org/magazines/2016/7/204021-the-rise-of-social-bots/fulltext",
+                "name": "Journal page"
+            },
+            {   
+                "source": "http://arxiv.org/abs/1407.5225",
+                "name": "ArXiv"
+            },
+            {
+                "source": "bibtex/cacm2016bots.bib",
+                "name": "BibTeX"
+            }
+        ],
+        "coverage": [
+            {
+                "source": "files/CACM_cover_201607.png",
+                "name": "CACM Cover Image"
+            },
+            {
+                "source": "https://vimeo.com/166538072",
+                "name": "Video Highlight"
+            },
+            {
+                "source": "http://www.technologyreview.com/view/529461/how-to-spot-a-social-bot-on-twitter/",
+                "name": "MIT Technology Review"
+            },
+            {
+                "source": "http://mashable.com/2014/07/30/twitter-social-bots/",
+                "name": "Mashable"
+            },
+            {
+                "source": "http://news.indiana.edu/releases/iu/2014/05/twitter-botornot.shtml",
+                "name": "IU Newsroom"
+            },
+            {
+                "source": "http://www.onurvarol.com/apps/coverages/index.html#BotOrNot",
+                "name": "More ..."
+            }
+        ]
+    },
+    {
+        "type": "journal",
+        "year": 2016,
+        "topics": ["Data Science"],
+        "image": "images/davis2016osome.jpg",
+        "text": "<b>OSoMe: The IUNI observatory on social media</b><br>Davis CA, Ciampaglia GL, Aiello LM, Chung K, Conover MD, Ferrara E, Flammini A, Fox GC, Gao X, Gonçalves B, Grabowicz PA, Hong K, Hui P, McCaulay S, McKelvey K, Meiss MR, Patil S, Peli Kankanamalage C, Pentchev V, Qiu J, Ratkiewicz J, Rudnick A, Serrette B, Shiralkar P, <u>Varol O</u>, Weng L, Wu T, Younge AJ, Menczer F.<br><i>PeerJ Computer Science 2: e87, 2016</i>",
+        "links": [
+            {
+                "source": "https://peerj.com/articles/cs-87/",
+                "name": "Journal page"
+            },
+            {
+                "source": "http://osome.iuni.iu.edu/",
+                "name": "Project Website"
+            },
+            {
+                "source": "bibtex/davis2016osome.bib",
+                "name": "BibTeX"
+            }
+        ],
+        "coverage": [
+            {
+                "source": "http://news.indiana.edu/releases/iu/2016/05/observatory-on-social-media.shtml",
+                "name": "IU News"
+            }
+        ]
+    },
+    {
+        "type": "journal",
+        "year": 2016,
+        "topics": ["Machine Learning"],
+        "image": "images/computer2016darpa.png",
+        "text": "<b>The DARPA Twitter Bot Challenge</b><br>V.S. Subrahmanian, A. Azaria, S. Durst, V. Kagan, A. Galstyan, K. Lerman, L. Zhu, E. Ferrara, A. Flammini, F. Menczer, R. Waltzman, A. Stevens, A. Dekhtyar, S. Gao, T. Hogg, F. Kooti, Y. Liu, <u>O. Varol</u>, P. Shiralkar, V. Vydiswaran, Q. Mei, T. Huang.<br><i>IEEE Computer 49(6), 2016</i>",
+        "links": [
+            {
+                "source": "https://www.computer.org/csdl/mags/co/2016/06/mco2016060038-abs.html",
+                "name": "Journal page"
+            },
+            {   
+                "source": "http://arxiv.org/abs/1601.05140",
+                "name": "ArXiv"
+            },
+            {
+                "source": "bibtex/computer2016darpa.bib",
+                "name": "BibTeX"
+            }
+        ],
+        "coverage": [
+            {
+                "source": "files/IEEE_Computer_cover_201606.png",
+                "name": "IEEE Computer Cover Image"
+            },
+            {
+                "source": "http://www.technologyreview.com/view/546256/how-darpa-took-on-the-twitter-bot-menace-with-one-hand-behind-its-back/",
+                "name": "MIT Technology Review"
+            },
+            {
+                "source": "http://www.businessinsider.com/darpa-twitter-bot-challenge-2016-1",
+                "name": "Business Insider"
+            }
+        ]
+    },
+    {
+        "type": "journal",
+        "year": 2014,
+        "topics": ["Machine Learning"],
+        "image": "images/snam2014.png",
+        "text": "<b>Clustering memes in social media streams</b><br>M. JafariAsbagh, E. Ferrara, <u>O. Varol</u>, F. Menczer, A. Flammini<br><i>Social Network Analysis and Mining, 4(237):1-­‐13, 2014</i>",
+        "links": [
+            {
+                "source": "http://dx.doi.org/10.1007/s13278-014-0237-x",
+                "name": "Journal page"
+            },
+            {   "source": "http://arxiv.org/abs/1411.0652",
+                "name": "ArXiv"
+            },
+            {
+                "source": "bibtex/snam2014.bib",
+                "name": "BibTeX"
+            }
+        ]
+    },
+    {
+        "type": "journal",
+        "year": 2014,
+        "topics": ["Biophysics"],
+        "image": "images/protein2014.png",
+        "text": "<b>Mode coupling points to functionally important residues in Myosin II</b><br><u>O. Varol</u>, D. Yuret, B. Erman, A. Kabakçıoğlu<br><i>Proteins: Structure, Function, and Bioinformatics, 82(9):1777-­‐86, 2014</i>",
+        "links": [
+            {
+                "source": "https://onlinelibrary.wiley.com/doi/full/10.1002/prot.24531",
+                "name": "Journal page"
+            },
+            {   "source": "http://arxiv.org/abs/1310.8598",
+                "name": "ArXiv"
+            },
+            {
+                "source": "bibtex/protein2014.bib",
+                "name": "BibTeX"
+            }
+        ]
+    },
+    {
+        "type": "conference",
+        "year": 2020,
+        "topics": ["Machine Learning"],
+        "image": "images/cikm-bot.png",
+        "text": "<b>Detection of Novel Social Bots by Ensembles of Specialized Classifiers</b><br>Sayyadiharikandeh M., <u>Varol O.</u>, Yang K. C., Flammini A., Menczer F.<br><i>CIKM 2020</i>",
+        "links": [
+            {
+                "source": "https://arxiv.org/abs/2006.06867",
+                "name": "ArXiv"
+            },
+            {
+                "source": "https://twitter.com/onurvarol/status/1272401284155559936",
+                "name": "twitter"
+            }
+        ]
+    },
+    {
+        "type": "conference",
+        "year": 2020,
+        "topics": ["Machine Learning"],
+        "image": "images/aaai-bot.png",
+        "text": "<b>Scalable and Generalizable Social Bot Detection through Data Selection</b><br>Yang K., <u>Varol O.</u>, Hui P., Menczer F.<br><i>AAAI 2020</i>",
+        "links": [
+            {
+                "source": "https://aaai.org/ojs/index.php/AAAI/article/view/5460",
+                "name": "AAAI Library"
+            },
+            {
+                "source": "https://arxiv.org/abs/1911.09179",
+                "name": "ArXiv"
+            },
+            {
+                "source": "https://twitter.com/onurvarol/status/1197912365062180864",
+                "name": "twitter"
+            }
+        ]
+    },
+    {
+        "type": "conference",
+        "year": 2017,
+        "topics": ["Machine Learning", "Comp. Soc. Sci."],
+        "image": "images/varol-icwsm.png",
+        "text": "<b>Online Human-Bot Interactions: Detection, Estimation, and Characterization</b><br><u>Varol O.</u>, Ferrara E., Davis C., Menczer, F., Flammini, A.<br><i>ICWSM 2017</i>",
+        "links": [
+            {
+                "source": "https://aaai.org/ocs/index.php/ICWSM/ICWSM17/paper/view/15587",
+                "name": "AAAI Library"
+            },
+            {
+                "source": "https://arxiv.org/abs/1703.03107",
+                "name": "ArXiv"
+            },
+            {
+                "source": "bibtex/bot2017icwsm.bib",
+                "name": "BibTeX"
+            }
+        ],
+        "coverage": [
+            {
+                "source": "http://www.cnbc.com/2017/03/10/nearly-48-million-twitter-accounts-could-be-bots-says-study.html",
+                "name": "CNBC"
+            },
+            {
+                "source": "https://news.northeastern.edu/2017/08/spotting-a-social-bot-might-be-harder-than-you-think/",
+                "name": "Northeastern news"
+            },
+            {
+                "source": "http://www.onurvarol.com/apps/coverages/index.html#BotEstimate",
+                "name": "More ..."
+            }
+        ]
+    },
+    {
+        "type": "conference",
+        "year": 2017,
+        "topics": ["Data Science", "Comp. Soc. Sci."],
+        "image": "images/cscw2017distilling.png",
+        "text": "<b>Distilling the Outcomes of Personal Experiences: A Propensity-scored Analysis of Social Media</b><br>Olteanu A., <u>Varol O.</u>, Kiciman E.<br><i>CSCW 2017</i>",
+        "links": [
+            {
+                "source": "http://dl.acm.org/citation.cfm?doid=2998181.2998353",
+                "name": "ACM Library"
+            },
+            {
+                "source": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/10/cscw17-distilling-the-outcomes-of-personal-experiences-a-propensity-scored-analysis.pdf",
+                "name": "PDF"
+            },
+            {
+                "source": "bibtex/cscw2017distilling.bib",
+                "name": "BibTeX"
+            }
+        ]
+    },
+    {
+        "type": "conference",
+        "year": 2016,
+        "topics": ["Comp. Soc. Sci."],
+        "text": "<b>Predicting online extremism, content adopters, and interaction reciprocity</b><br>Ferrara E., Wang W., <u>Varol O.</u>, Flammini A., Galstyan A.<br><i>SocInfo 2016</i>",
+        "links":[
+            {
+                "source": "http://link.springer.com/chapter/10.1007/978-3-319-47874-6_3",
+                "name": "Springer Library"
+            },
+            {
+                "source": "http://arxiv.org/abs/1605.00659",
+                "name": "ArXiv"
+            },
+            {
+                "source": "bibtex/ferrara2016socinfo.bib",
+                "name": "BibTeX"
+            }
+        ]
+    },
+    {
+        "type": "conference",
+        "year": 2016,
+        "topics": ["Comp. Soc. Sci."],
+        "image": "images/censorship2016websci.png",
+        "text": "<b>Spatiotemporal Analysis of Censored Content on Twitter</b><br><u>Varol O.</u><br><i>Web Science 2016</i>",
+        "links": [
+            {
+                "source": "http://dl.acm.org/citation.cfm?doid=2908131.2908208",
+                "name": "ACM Library"
+            },
+            {
+                "source": "bibtex/censorship2016websci.bib",
+                "name": "BibTeX"
+            }
+        ]
+    },
+    {
+        "type": "conference",
+        "year": 2016,
+        "topics": ["Comp. Soc. Sci."],
+        "image": "images/hin2016websci.png",
+        "text": "<b>Information Dissemination in Heterogeneous-Intent Networks</b><br>Das A., Gollapudi S.,  Kiciman E., <u>Varol O.</u><br><i>Web Science 2016</i>",
+        "links": [
+            {
+                "source": "http://dl.acm.org/citation.cfm?doid=2908131.2908161",
+                "name": "ACM Library"
+            },
+            {
+                "source": "bibtex/hin2016websci.bib",
+                "name": "BibTeX"
+            }
+        ]
+    },
+    {
+        "type": "conference",
+        "year": 2016,
+        "topics": ["Comp. Soc. Sci."],
+        "text": "<b>Towards an Open-Domain Framework for Distilling the Outcomes of Personal Experiences from Social Media Timelines</b><br>Olteanu A., <u>Varol O.</u>, Kiciman E.<br><i>ICWSM 2016</i>",
+        "links": [
+            {
+                "source": "http://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/view/13113",
+                "name": "AAAI Library"
+            },
+            {
+                "source": "bibtex/toward2016icwsm.bib",
+                "name": "BibTeX"
+            }
+        ]
+    },
+    {
+        "type": "conference",
+        "year": 2016,
+        "topics": ["Machine Learning"],
+        "image": "images/detection2016icwsm.png",
+        "text": "<b>Detection of Promoted Social Media Campaigns</b><br>Ferrara E., <u>Varol O.</u>, Menczer F., & Flammini A.<br><i>ICWSM 2016</i>",
+        "links": [
+            {
+                "source": "http://www.aaai.org/ocs/index.php/ICWSM/ICWSM16/paper/view/13034",
+                "name": "AAAI Library"
+            },
+            {
+                "source": "bibtex/detection2016icwsm.bib",
+                "name": "BibTeX"
+            }
+        ]
+    },
+    {
+        "type": "conference",
+        "year": 2016,
+        "topics": ["Data Science"],
+        "image": "images/botornot_fig.png",
+        "text": "<b>BotOrNot: A System to Evaluate Social Bots</b><br>Davis C.<sup>&dagger;</sup>, <u>Varol O.</u><sup>&dagger;</sup>, Ferrara E., Flammini A., Menczer F.<br><i>WWW'16 Developers Day</i>",
+        "links": [
+            {
+                "source": "http://dl.acm.org/citation.cfm?id=2889302",
+                "name": "ACM Library"
+            },
+            {
+                "source": "http://arxiv.org/abs/1602.00975",
+                "name": "ArXiv"
+            },
+            {
+                "source": "http://truthy.indiana.edu/botornot/",
+                "name": "Project Website"
+            },
+            {
+                "source": "bibtex/www2016botornot.bib",
+                "name": "BibTeX"
+            }
+        ],
+        "coverage": [
+            {
+                "source": "http://blogs.wsj.com/digits/2015/10/28/on-twitter-is-the-next-potus-a-bot-us/",
+                "name": "WSJ"
+            },
+            {
+                "source": "http://mashable.com/2014/07/30/twitter-social-bots/",
+                "name": "Mashable"
+            },
+            {
+                "source": "http://news.indiana.edu/releases/iu/2014/05/twitter-botornot.shtml",
+                "name": "IU Newsroom"
+            },
+            {
+                "source": "http://www.onurvarol.com/apps/coverages/index.html#BotOrNot",
+                "name": "More ..."
+            }
+        ]
+    },
+    {
+        "type": "conference",
+        "year": 2014,
+        "topics": ["Data Science", "Comp. Soc. Sci."],
+        "image": "images/gezi2014.png",
+        "text": "<b>Evolution of online user behavior during a social upheaval</b><br><u>Varol O.</u>, Ferrara E., Ogan C., Menczer F., & Flammini A.<br><i>ACM Web Science Conference 2014</i><br/><font color=\"red\">🏆 Best paper award</font>",
+        "links": [
+            {
+                "source": "http://dl.acm.org/citation.cfm?id=2615699",
+                "name": "ACM Library"
+            },
+            {
+                "source": "http://arxiv.org/abs/1406.7197",
+                "name": "ArXiv"
+            },
+            {
+                "source": "bibtex/gezi2014.bib",
+                "name": "BibTeX"
+            }
+        ]
+    },
+    {
+        "type": "conference",
+        "year": 2014,
+        "topics": ["Data Science", "Comp. Soc. Sci."],
+        "image": "images/dream_fig.jpg",
+        "text": "<b>Connecting Dream Networks Across Cultures</b><br><u>Varol O.</u>, Menczer F.<br><i>WWW'14  workshop on \"Connecting Online & Offline Life\"</i>",
+        "links": [
+            {
+                "source": "http://dl.acm.org/citation.cfm?id=2580073",
+                "name": "ACM Library"
+            },
+            {
+                "source": "http://arxiv.org/abs/1402.2297",
+                "name": "ArXiv"
+            },
+            {
+                "source": "bibtex/dream2014.bib",
+                "name": "BibTeX"
+            }
+        ],
+        "coverage": [
+            {
+                "source": "https://medium.com/the-physics-arxiv-blog/fb0160696bcd",
+                "name": "Medium"
+            }
+        ]
+    },
+    {
+        "type": "conference",
+        "year": 2013,
+        "topics": ["Data Science", "Comp. Soc. Sci."],
+        "image": "images/trends2013.png",
+        "text": "<b>Traveling Trends: Social Butterflies or Frequent Fliers?</b><br>Ferrara E., <u>Varol O.</u>, Menczer F., & Flammini A.<br><i>ACM Conference on Online Social Networks (COSN 2013)</i>",
+        "links": [
+            {
+                "source": "http://dl.acm.org/citation.cfm?id=2512956",
+                "name": "ACM Library"
+            },
+            {
+                "source": "http://arxiv.org/abs/1310.2671",
+                "name": "ArXiv"
+            },
+            {
+                "source": "bibtex/trends2013.bib",
+                "name": "BibTeX"
+            }
+        ],
+        "coverage": [
+            {
+                "source": "http://www.technologyreview.com/view/520416/the-top-five-trend-setting-cities-on-twitter/",
+                "name": "MIT Technology Review"
+            },
+            {
+                "source": "http://www.washingtonpost.com/blogs/the-switch/wp/2013/10/24/where-do-twitter-trends-start-try-cincinnati-ohio/",
+                "name": "Washington post"
+            },
+            {
+                "source": "http://blogs.seattletimes.com/fyi-guy/2013/10/24/study-seattle-is-top-twitter-trendsetter-in-the-u-s/",
+                "name": "Seattle Times"
+            },
+            {
+                "source": "http://www.onurvarol.com/apps/coverages/index.html#TravelingTrends",
+                "name": "More ..."
+            }
+        ]
+    },
+    {
+        "type": "conference",
+        "year": 2013,
+        "topics": ["Machine Learning"],
+        "image": "images/memeclustering2013.png",
+        "text": "<b>Clustering Memes in Social Media</b><br>E. Ferrara, M. JafariAsbagh, <u>O. Varol</u>, V. Qazvinian, F. Menczer, A. Flammini<br><i>IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM 2013)</i>",
+        "links": [
+            {
+                "source": "http://dl.acm.org/citation.cfm?id=2492530",
+                "name": "ACM Library"
+            },
+            {
+                "source": "http://arxiv.org/abs/1310.2665",
+                "name": "ArXiv"
+            },
+            {
+                "source": "bibtex/memeclustering2013.bib",
+                "name": "BibTeX"
+            }
+        ]
+    },
+    {
+        "type": "book",
+        "year": 2018,
+        "topics": ["Machine Learning"],
+        "image": "images/botfeatures2018.png",
+        "text": "<b>Feature Engineering for Social Bot Detection</b><br><u>Varol O.</u>, Davis C., Menczer, F., Flammini, A.<br><i>Feature Engineering for Machine Learning and Data Analytics</i>",
+        "links":[
+            {
+                "source": "https://books.google.com/books?id=661SDwAAQBAJ&lpg=PA311&ots=zHr54spjxg&dq=info%3AsM983rg_yb8J%3Ascholar.google.com&lr&pg=PA311#v=onepage&q&f=false",
+                "name": "Read Online"
+            },
+            {
+                "source":"files/2018-feature-engineering.pdf",
+                "name": "PDF"
+            },
+            {
+                "source": "bibtex/botfeatures2018.bib",
+                "name": "BibTeX"
+            }
+        ]
+    },
+    {
+        "type": "journal",
+        "year": 2019,
+        "topics": ["Data Science", "Network Science"],
+        "image": "images/nature2019commentary.png",
+        "text": "<b>Nature’s reach: narrow work has broad impact</b><br>Gates AJ., Ke Q., <u>Varol O.</u>, Barabasi AL.<br><i>Nature (2019): 32-34.</i>",
+        "links":[
+            {
+                "source": "https://www.nature.com/articles/d41586-019-03308-7",
+                "name": "Journal page"
+            },
+            {
+                "source": "files/2019-nature-anniversary.pdf",
+                "name": "PDF"
+            },
+            {
+                "source": "https://twitter.com/barabasi/status/1193166724696363009",
+                "name": "twitter"
+            },
+            {
+                "source": "bibtex/nature2019commentary.bib",
+                "name": "BibTeX"
+            }
+        ],
+        "coverage": [
+            {
+                "source": "https://www.nature.com/immersive/d42859-019-00121-0/index.html",
+                "name": "Website"
+            },
+            {
+                "source": "https://www.youtube.com/watch?v=GW4s58u8PZo",
+                "name": "Video"
+            }
+        ]
+    }
+]

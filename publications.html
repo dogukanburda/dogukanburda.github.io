@@ -10,7 +10,7 @@
 
           gtag('config', 'G-TDC01ELJLN');
         </script>
-        
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,6 +19,7 @@
         <script src="js/jquery.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/underscore-min.js"></script>
 
         <link type="text/css" rel="stylesheet" href="css/custom.css" />
         <link type="text/css" rel="stylesheet" href="css/hover-min.css" />
@@ -26,9 +27,146 @@
         <title>VRL Lab Publications</title>
 
         <script type="text/javascript">
+            
+            function draw_publication(publication){
+                pstr = '<div class="row" style="margin:1em;">';
+                console.log(publication);
+
+                // Badges
+                pstr += '<div class="col-lg-2">';
+                for(var i = 0; i < publication['topics'].length; i++){
+                    pstr += '<span class="badge badge-pill badge-secondary">' + publication['topics'][i] + '</span>';
+                }
+                pstr += '<span class="badge badge-pill badge-success">' + publication['year'] + '</span>';
+                pstr += '<span class="badge badge-pill badge-info">' + publication['type'] + '</span>';
+                pstr += '</div>';
+
+                // Publication text
+                pstr += '<div class="col-lg-7">' + publication['text'] + '<br>';
+                if (publication['links'] !== undefined){
+                    for (var j = 0; j < publication['links'].length; j++) {
+                        var link = publication['links'][j];
+                        if (link['source'].startsWith('bibtex') || link['source'].startsWith('files')){
+                            link['source'] = 'data/publications/' + link['source'];
+                        }
+
+                        if (link['name'] == 'BibTeX'){
+                            var linkId = link['source'].split('/');
+                            linkId = linkId[linkId.length-1].split('.')[0];
+                            pstr += '<a data-toggle="collapse" data-target="#' + linkId + '">' + link['name'] + '</a>';
+                            pstr += '<pre class="collapse bg-light" id="'+ linkId +'" style="padding:1em;">' + link['source'] + '</pre>';
+
+                        }else if (link['name'] == 'twitter'){
+                            pstr += '<a href="' + link['source'] + '" target="_blank"><img src="img/twitter-icon.png" style="height:1em;"></a>';
+                        }else{
+                            pstr += '<a href="' + link['source'] + '" target="_blank">' + link['name'] + '</a>';
+                        }
+
+                        if(j !== publication['links'].length-1){
+                            pstr += ' | ';
+                        }
+                        else{
+                            pstr += '<br/>'  
+                        }
+                    }
+                }
+                if (publication['coverage'] !== undefined){
+                    pstr += '<span class="coverage">Media Coverages: </span>'
+                    for (var j = 0; j < publication['coverage'].length; j++) {
+                        var link = publication['coverage'][j];
+                        if (link['source'].startsWith('bibtex') || link['source'].startsWith('files')){
+                            link['source'] = 'apps/publications/' + link['source'];
+                        }
+                            
+                        pstr += '<a href="' + link['source'] + '" target="_blank">' + link['name'] + '</a>';
+                        if(j !== publication['coverage'].length-1){
+                            pstr += ' | ';
+                        }
+                        else{
+                            pstr += '<br/>'  
+                        }
+                    }
+                }
+                pstr += '</div>';
+
+                // Publication image
+                pstr += '<div class="col-lg-3 hidden-xs my-auto">';
+                if(publication['image'] !== undefined){
+                    pstr += '<img src="data/publications/' + publication['image'] + '" width="100%">';
+                }
+                pstr += '</div>';
+
+                pstr += '</div>';
+                $('#publication-container').append(pstr);
+            }
+
+            function prepare_publication_table(publications, criteria){
+                if (criteria == 'topics'){
+                    console.log('Sorting by topics');
+                    var topics = [];
+                    for(var i=0; i < publications.length; i++){
+                        topics = topics.concat(publications[i]['topics']);
+                    }
+                    topics  = _.sortBy(_.uniq(topics), function(p){ return p; });
+                    console.log('topics',topics);
+
+                    for(var t=0; t < topics.length; t++){
+                        $('#publication-container').append('<h4>' + topics[t] + '</h4>');
+                        var plist = _.filter(publications, function(p){ return p['topics'].includes(topics[t]); });
+                        _.each(plist, draw_publication);
+                    }
+
+                } else if (criteria == 'years'){
+                    console.log('Sorting by years');
+                    var years = [];
+                    for(var i=0; i < publications.length; i++){
+                        years.push(publications[i]['year']);
+                    }
+                    years  = _.sortBy(_.uniq(years), function(p){ return -p; });
+                    //console.log('Years',years);
+
+                    for(var y=0; y < years.length; y++){
+                        $('#publication-container').append('<h4>' + years[y] + '</h4>');
+                        var plist = _.filter(publications, function(p){ return p['year'] == years[y]; });
+                        _.each(plist, draw_publication);
+                    }
+
+                } else {
+                    var ttype = [['preprint', 'Preprints & Under submission'], 
+                                 ['journal', 'Journal articles'], 
+                                 ['conference', 'Conference proceedings'], 
+                                 ['book', 'Book chapters']];
+                    for (var t=0; t < ttype.length; t++){
+                        var plist = _.filter(publications, function(p){ return p['type'] == ttype[t][0]; });
+                        plist = _.sortBy(plist, function(p){ return -p['year']; });
+                        if (plist.length == 0){ continue; }
+                        //console.log(plist);
+                        $('#publication-container').append('<h4>' + ttype[t][1] + '</h4>');
+                        _.each(plist, draw_publication, [criteria]);
+                    }
+                }
+            }
+
+            function updateBibtex(){
+                $('pre').each(function(){
+                    $('#' + $(this).attr('id')).load($(this).html());
+                });
+            }
+
+            function get_publications_and_draw(criteria){
+                $.getJSON('data/publications/publications.json',
+                    function (json) {
+                        $( "#publication-container" ).empty();
+                        prepare_publication_table(json, criteria);
+                        updateBibtex();
+                });
+            }
+
             $(document).ready(function () {
                 $('#header-container').load('template_header.html');
                 $('#footer-container').load('template_footer.html');
+
+                get_publications_and_draw('types');
             });
         </script>
 
@@ -39,9 +177,15 @@
         <div class="jumbotron" style="background-image: url(img/bg-publications.jpeg);"></div>
 
         <div class="container">
-            <h1>Publications</h1>
+            <div class="btn-group" role="group" style="margin-bottom: 1em;">
+              <div class="input-group-text">Group by:</div>
+              <button type="button" class="btn btn-secondary active" onclick="get_publications_and_draw('types');">types</button>
+              <button type="button" class="btn btn-secondary" onclick="get_publications_and_draw('years');">years</button>
+              <button type="button" class="btn btn-secondary" onclick="get_publications_and_draw('topics');">topics</button>
+            </div>
+            <div id="publication-container"></div>
         </div>
-
+        <br>
         <div id="footer-container"></div>
     </body>
 
