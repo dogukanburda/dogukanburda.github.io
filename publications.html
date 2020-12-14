@@ -156,6 +156,9 @@
             function get_publications_and_draw(criteria){
                 $.getJSON('data/publications/publications.json',
                     function (json) {
+                        $('.btn').removeClass('active');
+                        $('#btn-'+criteria).addClass('active');
+                        
                         $( "#publication-container" ).empty();
                         prepare_publication_table(json, criteria);
                         updateBibtex();
@@ -179,9 +182,9 @@
         <div class="container">
             <div class="btn-group" role="group" style="margin-bottom: 1em;">
               <div class="input-group-text">Group by:</div>
-              <button type="button" class="btn btn-secondary active" onclick="get_publications_and_draw('types');">types</button>
-              <button type="button" class="btn btn-secondary" onclick="get_publications_and_draw('years');">years</button>
-              <button type="button" class="btn btn-secondary" onclick="get_publications_and_draw('topics');">topics</button>
+              <button id="btn-types" type="button" class="btn btn-secondary active" onclick="get_publications_and_draw('types');">types</button>
+              <button id="btn-years" type="button" class="btn btn-secondary" onclick="get_publications_and_draw('years');">years</button>
+              <button id="btn-topics" type="button" class="btn btn-secondary" onclick="get_publications_and_draw('topics');">topics</button>
             </div>
             <div id="publication-container"></div>
         </div>
