@@ -24,6 +24,11 @@
         <link type="text/css" rel="stylesheet" href="css/custom.css" />
         <link type="text/css" rel="stylesheet" href="css/hover-min.css" />
         <link type="text/css" rel="stylesheet" href="css/academicons.min.css" />
+        <link type="text/css" rel="stylesheet" href="css/sidecar.css" />
+        
+
+        <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
 
         <title>VRL Lab Publications</title>
 
@@ -36,24 +41,79 @@
 
     </head>
 
-    <body>
+    <body data-spy="scroll" data-target="#toc">
         <div id="header-container"></div>
         <div class="jumbotron" style="background-image: url(img/bg-contact.jpg);"></div>
 
         <div class="container">
             <div class="row">
                 <div class="alert alert-success" role="alert">
-                    You find this page because you are either a curious soul or got the link directly from me. In any case, welcome to Viral Lab resources.
+                    You find this page because you are either a curious soul or got the link directly from me <i class="far fa-smile-wink"></i>. In any case, welcome to the Viral Lab resources.
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    Sidebar here
+                
+                <!-- sidebar, which will move to the top on a small screen -->
+                <div class="col-sm-3">
+                    <nav id="toc" data-toggle="toc" class="sticky-top">
+                    </nav>
                 </div>
-                <div class="col-lg-9 col-md-3 col-sm-12 col-xs-12">
-                    Content here
+
+                <!-- main content area -->
+                <div class="col-sm-9">
+                    <h2>Welcome!</h2>
+                        <p>
+                            Welcome to the VRL Lab manual! I am trying to keep this document up-to-date for sharing useful information on how our group operates. Please share your suggestions and experiences to make this document useful as possible.
+                        </p>
+
+                    <h2>Onboarding</h2>
+                        
+                        <p>
+                            There are couple of things that we request from all our members. You can find information and the instructions below. 
+                        </p>
+
+                        <h4>Website</h4>
+                            <p>
+                                Students <a href="https://www.natureindex.com/news-blog/build-your-own-academic-website-for-scientists-researchers-phd" target="_blank">must have</a> a website. I recommend using your institutional webspace as well with a simple redirection to point your own domain name. 
+                            </p>
+                            <p>
+                                There are several free options for hosting your own page. I prefer <a href="https://pages.github.com/" target="_blank">Github Pages</a>. You can also look for academic website templates like <a href="https://academicpages.github.io/" target="_blank">this</a> or <a href="https://themes.gohugo.io/academic/" target="_blank">this</a> one.
+                            </p>
+
+                        <h4>Calendar</h4>
+                            <p>
+                                Our lab has a private event calendar where we schedule group meetings, seminars, social activities, etc. Please ask for access.
+                            </p>
+
+                        <h4>Update group website</h4>
+                            <p>
+                                This website contains information about our members, publications, resources etc. We share these content on a Github <a target="_blank" href="https://github.com/ViralLab/virallab.github.io">project</a>. You can make a <a href="https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request" target="_blank">pull-request</a> for the changes. You should update the file for members and upload a picture of yours to include your profile on the website.
+                            </p>
+
+
+
+                    <h2>Meetings</h2>
+
+                        <h4>Group meetings</h4>
+                            <p>
+                                We condict regular group meeting where everyone will have an opportunity to present their work and get feedback from their labmates. Please be active, share your opinions and give constructive feedback.
+                                <img src="img/lab-meeting-phd-comics.jpg" width="50%"/>
+                            </p>
+
+                        <h4>One on one meeting</h4>
+                            <p>
+                                If you would like to meet one-on-one to discuss about research, courses or career advice, we can schedule a time for this. Please don't hesitate sending an email.
+                            </p>
+
+                    <h2>Resources</h2>
+                        <!-- 
+                            Server, Github
+                        -->
+
+
                 </div>
+
             </div>
         </div>
 
