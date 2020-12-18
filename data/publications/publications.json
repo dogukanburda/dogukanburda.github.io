@@ -53,6 +53,27 @@
     {
         "type": "journal",
         "year": 2020,
+        "image": "images/hksmisinfo.png",
+        "topics": ["Comp. Soc. Sci."],
+        "text": "<b>Tackling misinformation: What researchers could do with social media data</b><br>Pasquetto, I, Swire-Thompson, B., Amazeen, M., Benevenuto, F., Brashier, N.M., Bond, R.M., Bozarth, L.C., Budak, C., Ecker, U.KH., Fazio, L.K., Ferrara, E., Flanagin, A.J., Flammini, A.,  Freelon, D., Grinberg, N., Hertwig, R., Jamieson, K.H., Joseph, K., Jones, J.J.,  Garrett, R.K., Kreiss, D., McGregor, S., McNealy, J., Margolin, D., Marwick, A., Menczer, F., Metzger, M.J., Nah, S., Lewandowsky, S., Lorenz-Spreen, P., Ortellado, P., Pennycook, G., Porter, E., Rand, D.G., Robertson, R., Tripodi, F., Vosoughi, S., Vargo, C., <u>Varol, O.</u>, Weeks, B.E., Wihbey, J., Wood, T.J., Yang, K.C.<br><i>Harvard Kennedy School (HKS) Misinformation Review, 1(8).</i>",
+        "links":[
+            {
+                "source": "https://misinforeview.hks.harvard.edu/article/tackling-misinformation-what-researchers-could-do-with-social-media-data/",
+                "name": "Journal"
+            },
+            {
+                "source": "files/2020-hksmisinfo.pdf",
+                "name": "PDF"
+            },
+            {
+                "source": "bibtex/hksmisinfo2020.bib",
+                "name": "BibTeX"
+            }
+        ]
+    },
+    {
+        "type": "journal",
+        "year": 2020,
         "topics": ["Comp. Soc. Sci.", "Data Science"],
         "image": "images/pnas2020ffc.png",
         "text": "<b>Measuring the predictability of life outcomes with a scientific mass collaboration</b><br>Fragile Families Challenge Team<br><i>PNAS</i> 117.15 (2020): 8398-8403.",
