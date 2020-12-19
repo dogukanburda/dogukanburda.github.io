@@ -34,6 +34,10 @@
                 divStr += '<h5 class="card-title">' + profile['name'] + '</h5>';
                 divStr += '<p class="card-text">' + profile['about'] + '</p>';
 
+                if('email' in profile['links']) {
+                    divStr += '<a href="mailto:' + profile['links']['email'] + '" style="margin-right:5px;"><i class="fas fa-envelope fa-2x"></i></a>'
+                }
+
                 if('website' in profile['links']) {
                     divStr += '<a href="' + profile['links']['website'] + '" style="margin-right:5px;"><i class="fas fa-home fa-2x"></i></a>'
                 }
