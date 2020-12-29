@@ -1,5 +1,6 @@
 [
     {
+        "id": "ovarol",
         "name": "Onur Varol",
         "role": "PI",
         "img": "pictures/onur-varol.jpg",
@@ -11,11 +12,19 @@
             "orcid": "https://orcid.org/0000-0002-3994-6106",
             "twitter": "https://twitter.com/onurvarol",
             "linkedin": "https://www.linkedin.com/in/onurvarol/"
-        }
+        },
+        "bio": "Dr. Onur Varol is an Assistant Professor at the Sabanci University Faculty of Engineering and Natural Sciences and Principal Investigator at the VIRAL Lab. His research focuses on developing techniques to analyze online behaviors to improve individual well-being and address societal problems using online data. Prior to joining Sabanci University, he was a postdoctoral researcher at Northeastern University at the Center for Complex Network Research. He completed his PhD in Informatics at Indiana University, Bloomington (USA). His thesis focuses on the analysis of manipulation and threats on social media and he was awarded the 2018 University Distinguished Ph.D. Dissertation Award. He has developed a system called <a href=\"http://botometer.iuni.iu.edu\" target=\"_blank\">Botometer</a> to detect social bots on Twitter and his team ranked top 3 worldwide at the 2015 DARPA Bot Detection Challenge. Efforts on studying social bots yield publications on prestigious venues such as <i>International Conference of Web and Social Media</i> (ICWSM), <i>Nature Communications</i>, <i>World Wide Web</i> (WWW) conference, and <i>Communications of the ACM</i>. He interned at Microsoft Research for two summers during his PhD to develop causal analysis of large-scale social media timelines. He is currently working on quantifying success of online personas and impact of their actions. He is also modeling user interactions, leveraging online data across multiple platforms to understand conscious and unconscious behaviors.",
+        "education": [
+            "Ph.D. Informatics, Indiana University, 2017",
+            "M.Sc. Computer Science and Engineering, Koc University, 2012",
+            "B.Sc. Physics Engineering, Istanbul Technical University, 2012",
+            "B.Sc. Electronics Engineering, Istanbul Technical University, 2010"
+        ]
     },
 
     {
-        "name": "Ismail Uluturk",
+        "id": "iuluturk",
+        "name": "Ismail Ulutürk",
         "role": "Collaborator",
         "img": "pictures/ismail-uluturk.jpg",
         "about": "Interested in wireless, social, and gluten networks.",
@@ -24,6 +33,29 @@
             "scholar": "https://scholar.google.com/citations?user=WmKu3G0AAAAJ",
             "twitter": "https://twitter.com/strictlynofun",
             "linkedin": "https://www.linkedin.com/in/ismail-uluturk-a3194328/"
-        }
+        },
+        "bio": "He is a recent PhD from University of South Florida, studying machine learning applications for technological and social networks. He is particularly interested in decentralized multi-agent cooperation and decision making. His current projects include collaborative trajectory control for a novel aerial Radio Access Network utilizing Reinforcement Learning, and studying the implications of the existence of social bots.<br>He also have 8 years of start-up industry research and development experience with a company developing healthcare RFID / IoT solutions where I joined as one of the first 10 employees, working on design and development of several products that are currently deployed in hospitals internationally throughout all stages of the product cycle.",
+        "education": [
+            "PhD in Electrical Engineering, University of South Florida, 2020",
+            "MSEE in Electrical Engineering, University of South Florida, 2017",
+            "BSc in Electrical Engineering, Istanbul Technical University, 2012"
+        ]
+    },
+
+    {
+        "id": "bozturan",
+        "name": "Burak Özturan",
+        "role": "Collaborator",
+        "img": "pictures/burak-ozturan.jpg",
+        "about": "Investigating the online behaviour of Turkish Members of Parliament",
+        "links": {
+            "twitter": "https://twitter.com/burakozturan",
+            "linkedin": "https://www.linkedin.com/in/burak-%C3%B6zturan-756775153/"
+        },
+        "bio": "Burak Ozturan is a computational social science researcher. He is currently doing his MSc in Data Science at the University of Konstanz. He gained his Bachelor's degree in Economics from Bogazici University. His research interests are at the intersection between data science and social sciences. He is employing both social network analysis and computational text analysis methods to study disinformation and online polarization and public opinion.<br>He participated in the SICSS (Summer Institute in Computational Social Science) in 2020. He presented his  Turkish Twittersphere during the COVID-19 pandemic research at  ECPR (European Consortium for Political Research).  He is also currently carrying out research with Dr. Onur Varol investigating the online behaviour of Turkish Members of Parliament and planning to compare with US Senate.",
+        "education": [
+            "MSc in Data Science, Universität Konstanz, 2020",
+            "BSc in Economics, Bogazici University, 2018"
+        ]
     }
 ]

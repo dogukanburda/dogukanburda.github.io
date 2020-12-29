@@ -29,11 +29,15 @@
         <title>VRL Lab Members</title>
 
         <script type="text/javascript">
+            function modalBtnClick(elem){
+                console.log(elem);
+            }
+
             function draw_card(profile){
                 divStr = '<div class="card" style="width: 18rem; margin-left:1em;"><img class="card-img-top" src="data/people/' + profile['img'] + '" alt="Card image cap"> <div class="card-body">';
                 divStr += '<h5 class="card-title">' + profile['name'] + '</h5>';
                 divStr += '<p class="card-text">' + profile['about'] + '</p>';
-
+            
                 if('email' in profile['links']) {
                     divStr += '<a href="mailto:' + profile['links']['email'] + '" target="_blank" style="margin-right:5px;"><i class="fas fa-envelope fa-2x"></i></a>'
                 }
@@ -58,7 +62,19 @@
                     divStr += '<a href="' + profile['links']['linkedin'] + '" style="margin-right:5px;"><i class="fab fa-linkedin fa-2x"></i></a>'
                 }
 
-                //'<a href="#" class="btn btn-primary">Go somewhere</a>'
+                divStr += '<button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" style="width:100%; color:#002776; margin-top:5px;" data-target="#'+ profile['id'] +'"><i class="fas fa-expand-arrows-alt"></i> More details</button>';
+
+                divStr += '<div class="modal fade" id="' + profile['id']+ '" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="exampleModalLongTitle">' + profile['name'] + '</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button></div> <div class="modal-body"><b>Biography</b><p class="text-justify">' + profile['bio'] + '</p>';
+
+                if (profile['education'].length > 0){
+                    divStr += '<b>Education</b><br>';
+                    for (var t=0; t < profile['education'].length; t++) {
+                        divStr += '<small><i class="fas fa-graduation-cap"></i> ' + profile['education'][t] + '</small><br>';
+                    }
+                }
+
+                divStr += '</div></div></div></div>';
+
                 divStr += '</div></div>';
                 return divStr;
             }
@@ -67,10 +83,14 @@
                 console.log(profiles);
                 var typeRank = ['PI','PhD','MSc','Undergraduate','Collaborator','Alumni'];
                 console.log(typeRank);
+
+                var mstr = '';
+                //mstr += '<div class="card-columns">';
                 for (var t=0; t < typeRank.length; t++) {
                     console.log(typeRank[t]);
                     plist = _.filter(profiles, function(p){ return p['role'] == typeRank[t]; });
                     console.log(plist);
+
                     if(plist.length > 0){
                         var extension = '';
                         if (['PhD','MSc','Undergraduate'].includes(typeRank[t])){
@@ -79,14 +99,16 @@
                         if (typeRank[t] == 'Collaborator'){
                             extension = 's';
                         }
-                        var mstr = '<h3>' + typeRank[t] + extension + '</h3><div class="card-columns">';
+                        
+                        mstr += '<h3>' + typeRank[t] + extension + '</h3><div class="card-columns">';
+                        //mstr += '<div class="card-columns">';
                         for (var i=0; i<plist.length; i++){
                             mstr += draw_card(plist[i]);
                         }
                         mstr += '</div>';
-                        $('#member-container').append(mstr);
                     }
                 }
+                $('#member-container').append(mstr);
             }
 
             $(document).ready(function () {
@@ -97,7 +119,6 @@
                     function (json) {
                         prepare_user_cards(json);
                 });
-
             });
         </script>
 
