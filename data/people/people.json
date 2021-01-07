@@ -57,5 +57,38 @@
             "MSc in Data Science, Universität Konstanz, 2020",
             "BSc in Economics, Bogazici University, 2018"
         ]
+    },
+
+    {
+        "id": "btemel",
+        "name": "Barış Temel",
+        "role": "MSc",
+        "img": "pictures/baris-temel.png",
+        "about": "Data Science MSc student",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/baris-temel/"
+        },
+        "bio": "Barış Temel is a Data Science MSc. student at Sabancı University. He is also a data science enthusiast with 1 year experience in the banking industry as a data analyst. He studied BSc in Industrial Engineering with a minor Finance in Sabancı University. During his BSc, he was involved in various projects. He conducted a group study as a graduation project which was about Investigating Electrical Vehicle Costs and Benefits in Istanbul. After graduation he self-educated himself with online courses on data science concepts like Machine learning, Deep Learning, and Python specific courses. He worked as a Data Analyst in Finansbank as a management trainee and learned the real life applications of finance and data processing. He learned to gather and process the data using SQL and he had an opportunity to work with a simple anomaly detection project using Python in finance. His area of interests merge with those trending topics.",
+        "education": [
+            "BSc Minor in Finance, Sabanci University, 2018",
+            "BSc in Industrial Engineering, Sabanci University, 2018"
+        ]
+    },
+
+    {
+        "id": "msoruklu",
+        "name": "Mutlu Soruklu",
+        "role": "MSc",
+        "img": "pictures/mutlu-soruklu.jpg",
+        "about": "Data Science MSc student",
+        "links": {
+            "linkedin": "",
+            "twitter": "https://twitter.com/mtlsrkl"
+        },
+        "bio": "Mutlu Soruklu is currently doing his MSc in Data Science at Sabanci University. He received his bachelor’s degree in Industrial Engineering from Sabanci University. His research area focuses on machine learning, statistical analysis, and optimization. He is interested in the applications of various machine learning algorithms in health-related data. He is carrying out his master’s thesis with Dr. Onur Varol searching for relations of exercise with well-being and mental health.",
+        "education": [
+            "BSc in Industrial Engineering, Sabanci University, 2020"
+        ]
     }
+
 ]
