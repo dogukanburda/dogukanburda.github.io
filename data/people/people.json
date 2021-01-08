@@ -82,13 +82,56 @@
         "img": "pictures/mutlu-soruklu.jpg",
         "about": "Data Science MSc student",
         "links": {
-            "linkedin": "",
+            "linkedin": "https://www.linkedin.com/in/mutlu-soruklu-888755171/",
             "twitter": "https://twitter.com/mtlsrkl"
         },
         "bio": "Mutlu Soruklu is currently doing his MSc in Data Science at Sabanci University. He received his bachelor’s degree in Industrial Engineering from Sabanci University. His research area focuses on machine learning, statistical analysis, and optimization. He is interested in the applications of various machine learning algorithms in health-related data. He is carrying out his master’s thesis with Dr. Onur Varol searching for relations of exercise with well-being and mental health.",
         "education": [
             "BSc in Industrial Engineering, Sabanci University, 2020"
         ]
+    },
+
+    {
+        "id": "gozgun",
+        "name": "Güneş Başak Özgün",
+        "role": "Undergraduate",
+        "img": "pictures/gunes-basak-ozgun.jpg",
+        "about": "Computer Science & Engineering BSc student",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/g%C3%BCne%C5%9F-%C3%B6zg%C3%BCn-6724b9151",
+            "github": "https://github.com/gozgun"
+        },
+        "bio": "Güneş Başak Özgün is a senior Mechatronics Engineering and Computer Science & Engineering double major student at Sabancı University. She is currently interested in computational social science focused on music. Her interest stems from her goal to learn more about the connection between social sciences and computer science. She is conducting research with Dr. Onur Varol on the relationship between binaural characteristics of playlists on Spotify and their popularity.",
+        "education": [
+            "BSc in Mechatronics Engineering, Sabanci University, 2020"
+        ]
+    },
+
+    {
+        "id": "eozturk",
+        "name": "Elif Nur Öztürk",
+        "role": "Undergraduate",
+        "img": "pictures/elif-nur-ozturk.png",
+        "about": "Computer Science & Engineering BSc student",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/elif-nur-%C3%B6zt%C3%BCrk-52a667194/"
+        },
+        "bio": "Elif Nur Öztürk is an undergraduate Computer Science and Engineering student at Sabancı University. She is especially interested in data science and gender studies. She creates contents about artificial intelligence applications and blockchain technology within The Turkish Informatics Foundation’s initiative.",
+        "education": []
+    },
+
+    {
+        "id": "oayyildiz",
+        "name": "Omay Ece Ayyıldız",
+        "role": "Undergraduate",
+        "img": "pictures/omay-ece-ayyildiz.jpg",
+        "about": "Computer Science & Engineering BSc student",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/omay-ece-ayy%C4%B1ld%C4%B1z-80655b134/"
+        },
+        "bio": "As an undergraduate Computer Science student at Sabancı University, Omay Ece Ayyıldız is specifically interested in computer science’s intersection with social contexts; especially social inequalities. She has conducted research in gender equality and wrote articles about artificial intelligence developments.",
+        "education": []
     }
+
 
 ]

@@ -43,23 +43,27 @@
                 }
 
                 if('website' in profile['links']) {
-                    divStr += '<a href="' + profile['links']['website'] + '" style="margin-right:5px;"><i class="fas fa-home fa-2x"></i></a>'
+                    divStr += '<a href="' + profile['links']['website'] + '" target="_blank" style="margin-right:5px;"><i class="fas fa-home fa-2x"></i></a>'
                 }
 
                 if('scholar' in profile['links']) {
-                    divStr += '<a href="' + profile['links']['scholar'] + '" style="margin-right:5px;"><i class="ai ai-google-scholar ai-2x"></i></a>'
+                    divStr += '<a href="' + profile['links']['scholar'] + '" target="_blank" style="margin-right:5px;"><i class="ai ai-google-scholar ai-2x"></i></a>'
                 }
 
                 if('orcid' in profile['links']) {
-                    divStr += '<a href="' + profile['links']['orcid'] + '" style="margin-right:5px;"><i class="ai ai-orcid ai-2x"></i></a>'
+                    divStr += '<a href="' + profile['links']['orcid'] + '" target="_blank" style="margin-right:5px;"><i class="ai ai-orcid ai-2x"></i></a>'
                 }
 
                 if('twitter' in profile['links']) {
-                    divStr += '<a href="' + profile['links']['twitter'] + '" style="margin-right:5px;"><i class="fab fa-twitter fa-2x"></i></a>'
+                    divStr += '<a href="' + profile['links']['twitter'] + '" target="_blank" style="margin-right:5px;"><i class="fab fa-twitter fa-2x"></i></a>'
                 }
 
                 if('linkedin' in profile['links']) {
-                    divStr += '<a href="' + profile['links']['linkedin'] + '" style="margin-right:5px;"><i class="fab fa-linkedin fa-2x"></i></a>'
+                    divStr += '<a href="' + profile['links']['linkedin'] + '" target="_blank" style="margin-right:5px;"><i class="fab fa-linkedin fa-2x"></i></a>'
+                }
+
+                if('github' in profile['links']) {
+                    divStr += '<a href="' + profile['links']['github'] + '" target="_blank" style="margin-right:5px;"><i class="fab fa-github fa-2x"></i></a>'
                 }
 
                 divStr += '<button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" style="width:100%; color:#002776; margin-top:5px;" data-target="#'+ profile['id'] +'"><i class="fas fa-expand-arrows-alt"></i> More details</button>';
@@ -89,6 +93,7 @@
                 for (var t=0; t < typeRank.length; t++) {
                     console.log(typeRank[t]);
                     plist = _.filter(profiles, function(p){ return p['role'] == typeRank[t]; });
+                    plist = _.sortBy(plist, function(p){ return p['name']; });
                     console.log(plist);
 
                     if(plist.length > 0){
