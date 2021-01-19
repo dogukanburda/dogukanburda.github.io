@@ -133,6 +133,10 @@
                 "name": "Journal page"
             },
             {
+                "source": "files/2019-book.pdf",
+                "name": "PDF"
+            },
+            {
                 "source": "https://twitter.com/barabasi/status/1186262007286239233",
                 "name": "twitter"
             },
@@ -154,6 +158,10 @@
                 "name": "Journal page"
             },
             {
+                "source": "files/2019-arming.pdf",
+                "name": "PDF"
+            },
+            {
                 "source": "https://arxiv.org/abs/1901.00912",
                 "name": "ArXiv"
             },
@@ -173,6 +181,10 @@
             {
                 "source": "https://rdcu.be/bdG9l",
                 "name": "Journal page"
+            },
+            {
+                "source": "files/2018-emotions.pdf",
+                "name": "PDF"
             },
             {
                 "source": "https://arxiv.org/abs/1807.09725",
@@ -212,6 +224,10 @@
             {
                 "source": "https://www.nature.com/articles/s41467-018-06930-7",
                 "name": "Journal page"
+            },
+            {
+                "source": "files/2018-hoaxybots.pdf",
+                "name": "PDF"
             },
             {
                 "source": "https://arxiv.org/abs/1707.07592",
@@ -257,6 +273,10 @@
                 "name": "Journal page"
             },
             {
+                "source": "files/2018-fm.pdf",
+                "name": "PDF"
+            },
+            {
                 "source": "https://arxiv.org/abs/1906.11371",
                 "name": "ArXiv"
             },
@@ -276,6 +296,10 @@
             {
                 "source": "https://doi.org/10.1140/epjds/s13688-017-0111-y",
                 "name": "Journal page"
+            },
+            {
+                "source": "files/2017-earlydetection.pdf",
+                "name": "PDF"
             },
             {
                 "source": "https://arxiv.org/abs/1703.07518",
@@ -313,6 +337,10 @@
                 "name": "Journal page"
             },
             {
+                "source": "files/2016-ics-gezi.pdf",
+                "name": "PDF"
+            },
+            {
                 "source": "bibtex/ics2016gezi.bib",
                 "name": "BibTeX"
             }
@@ -328,6 +356,10 @@
             {
                 "source": "http://cacm.acm.org/magazines/2016/7/204021-the-rise-of-social-bots/fulltext",
                 "name": "Journal page"
+            },
+            {
+                "source": "files/2017-cacmbots.pdf",
+                "name": "PDF"
             },
             {   
                 "source": "http://arxiv.org/abs/1407.5225",
@@ -375,6 +407,10 @@
             {
                 "source": "https://peerj.com/articles/cs-87/",
                 "name": "Journal page"
+            },
+            {
+                "source": "files/2016-osome.pdf",
+                "name": "PDF"
             },
             {
                 "source": "http://osome.iuni.iu.edu/",
@@ -458,6 +494,10 @@
                 "source": "https://onlinelibrary.wiley.com/doi/full/10.1002/prot.24531",
                 "name": "Journal page"
             },
+            {
+                "source": "files/2014-protein.pdf",
+                "name": "PDF"
+            },
             {   "source": "http://arxiv.org/abs/1310.8598",
                 "name": "ArXiv"
             },
@@ -515,6 +555,10 @@
             {
                 "source": "https://aaai.org/ocs/index.php/ICWSM/ICWSM17/paper/view/15587",
                 "name": "AAAI Library"
+            },
+            {
+                "source": "files/2017-icwsmbots.pdf",
+                "name": "PDF"
             },
             {
                 "source": "https://arxiv.org/abs/1703.03107",
@@ -701,6 +745,10 @@
             {
                 "source": "http://dl.acm.org/citation.cfm?id=2615699",
                 "name": "ACM Library"
+            },
+            {
+                "source": "files/2014-websci-gezi.pdf",
+                "name": "PDF"
             },
             {
                 "source": "http://arxiv.org/abs/1406.7197",
