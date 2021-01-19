@@ -107,6 +107,22 @@
     },
 
     {
+        "id": "dbayik",
+        "name": "Davut Bayık",
+        "role": "MSc",
+        "img": "pictures/davut-bayik.jpg",
+        "about": "Data Science MSc student",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/davutbayik/"
+        },
+        "bio": "Davut Bayık is a Data Science MSc student at Sabanci University. He graduated from the same university with an Industrial Engineering degree in 2020 June. He also has a minor degree in Finance. He conducted a summer internship at SabanciDx's SAP Support and Consultancy Department in summer 2019. After the internship, he joined SabanciDx as a part-time SAP Consultant when he was a senior student at Industrial Engineering, from between 2019 October – 2020 July. During summer 2020, he started a second internship at Kariyer.net R&D Department. At Kariyer.net, he worked with Data Scientists on an ongoing recommendation systems project to design two types of recommendation systems: behavior-based recommendation system using collaborative filtering and content-based recommendation system using machine learning. At the end of my internship, these two systems are combined and become a hybrid recommendation system for Kariyer.net. Davut is broadly interested in deep learning and statistics.",
+        "education": [
+            "BSc Minor in Finance, Sabanci University, 2020",
+            "BSc in Industrial Engineering, Sabanci University, 2020"
+        ]
+    },
+
+    {
         "id": "gozgun",
         "name": "Güneş Başak Özgün",
         "role": "Undergraduate",
