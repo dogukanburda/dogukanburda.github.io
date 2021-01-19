@@ -92,6 +92,21 @@
     },
 
     {
+        "id": "ocseckin",
+        "name": "Özgür Can Seçkin",
+        "role": "MSc",
+        "img": "pictures/ozgur-can-seckin.jpg",
+        "about": "Data Science MSc student",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/%C3%B6zg%C3%BCr-can-se%C3%A7kin-443056134/"
+        },
+        "bio": "Özgür Can Seçkin is a MSc Data Science student at Sabancı University. He started working on sentiment analysis with NLP, other machine learning algorithms and web scraping while he was doing his undergraduate in Galatasaray University Economics. After graduation, he got a job at İş Bankası as a credit analyst, where he was involved in projects about credit risk evaluation, monitoring and loan automation. His objective is to create a better understanding about how society works, using data.",
+        "education": [
+            "BSc in Economics, Galatasaray University, 2019"
+        ]
+    },
+
+    {
         "id": "gozgun",
         "name": "Güneş Başak Özgün",
         "role": "Undergraduate",
