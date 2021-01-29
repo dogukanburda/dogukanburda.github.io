@@ -123,6 +123,22 @@
     },
 
     {
+        "id": "oyargi",
+        "name": "Özgün Yargı",
+        "role": "MSc",
+        "img": "pictures/ozgun-yargi.jpg",
+        "about": "Data Science MSc student",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/%C3%B6zg%C3%BCn-yarg%C4%B1-681718162/",
+            "github": "https://github.com/ozgunyargi"
+        },
+        "bio": "Özgün Yargı is a Data Science MSc. Student in Sabancı University. He also completed his undergraduate program in Sabancı University as Mechatronics Engineer. During his undergraduate period, he dealt to combine Machine Learning algorithms with embedded systems that will allow robustness and automation. He worked on implementing Machine Learning algorithm to his Inverted Pendulum Project. This implementation allowed system to maintain its stable position. He focused on gathering different dataset types to get familiar with them. He applied competitions that were published by McKinsey, Kaggle, ISIC to improve himself individually. His main interest of area is object detection and classification with deep learning algorithms.",
+        "education": [
+            "BSc in Mechatronics Engineering, Sabanci University, 2020"
+        ]
+    },
+
+    {
         "id": "gozgun",
         "name": "Güneş Başak Özgün",
         "role": "Undergraduate",
