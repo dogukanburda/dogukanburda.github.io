@@ -139,6 +139,22 @@
     },
 
     {
+        "id": "uduygu",
+        "name": "Umut Duygu",
+        "role": "MSc",
+        "img": "pictures/umut-duygu.jpeg",
+        "about": "Political Science MA student",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/umutduygu/"
+        },
+        "bio": "Umut Duygu is a Political Science M.A. Student at Sabancı University. He holds a bachelor’s degrees in International Relations and History from Koç University. He worked as an intern for several organizations including United Nations, Istanbul Policy Center and Hürriyet. He is carrying out his master’s thesis with Dr. Onur Varol. His main points of interest are Digital Diplomacy, Misinformation and Voter Behavior.",
+        "education": [
+            "BA in International Relations, Koç University, 2020",
+            "BA in History, Koç University, 2020"
+        ]
+    },
+
+    {
         "id": "gozgun",
         "name": "Güneş Başak Özgün",
         "role": "Undergraduate",
