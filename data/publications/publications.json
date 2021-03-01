@@ -52,6 +52,27 @@
     },
     {
         "type": "journal",
+        "year": 2021,
+        "image": "images/covid19-jmir.png",
+        "topics": ["Data Science"],
+        "text": "<b>Prevalence of Misinformation and Factchecks on the COVID-19 Pandemic in 35 Countries: Observational Infodemiology Study</b><br> Cha M, Cha C, Singh K, Lima G, Ahn Y, Kulshrestha J, <u>Varol O</u><br><i>JMIR Hum Factors 2021;8(1):e23279</i>",
+        "links":[
+            {
+                "source": "https://humanfactors.jmir.org/2021/1/e23279",
+                "name": "Journal"
+            },
+            {
+                "source": "files/2021-jmirhf-covid19.pdf",
+                "name": "PDF"
+            },
+            {
+                "source": "bibtex/humanfactors2021.bib",
+                "name": "BibTeX"
+            }
+        ]
+    },
+    {
+        "type": "journal",
         "year": 2020,
         "image": "images/hksmisinfo.png",
         "topics": ["Comp. Soc. Sci."],
