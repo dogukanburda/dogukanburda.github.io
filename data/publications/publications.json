@@ -58,6 +58,10 @@
                 "name": "Journal"
             },
             {
+                "source": "files/2021-pnas-covid.pdf",
+                "name": "PDF"
+            },
+            {
                 "source": "https://arxiv.org/abs/2004.07229",
                 "name": "ArXiv"
             },
