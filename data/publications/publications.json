@@ -2,6 +2,19 @@
     {
         "type": "preprint",
         "year": 2021,
+        "topics": ["Data Science"],
+        "image": "images/covid19misinfo.png",
+        "text": "<b>Misinformation, Believability, and Vaccine Acceptance Over 40 Countries: Takeaways From the Initial Phase of The COVID-19 Infodemic</b><br>Singh K., Lima G., Cha M., Cha C., Kulshrestha J., Ahn Y. Y., and <u>Varol O.</u><br><i>Under review</i>",
+        "links":[
+            {
+                "source": "https://arxiv.org/abs/2104.10864",
+                "name": "ArXiv"
+            }
+        ]
+    },
+    {
+        "type": "preprint",
+        "year": 2021,
         "topics": ["Comp. Soc. Sci."],
         "image": "images/social-annotate.png",
         "text": "<b>Social-Annotate: Browser extension to annotate and collect social media data</b><br>Uluturk I., <u>Varol O.</u><br><i>Under review in JOSS</i>",
@@ -19,23 +32,6 @@
     {
         "type": "preprint",
         "year": 2021,
-        "topics": ["Network Science"],
-        "image": "images/covid-barabasi.png",
-        "text": "<b>Network Medicine Framework for Identifying Drug Repurposing Opportunities for COVID-19</b><br>Gysi D., Do Valle I., Zitnik M., Ameli A., Gan X., <u>Varol O.</u>, Sanchez H., Baron R., Ghiassian D., Loscalzo J., Barabasi AL.<br><i>Under review</i>",
-        "links": [
-            {
-                "source": "https://arxiv.org/abs/2004.07229",
-                "name": "ArXiv"
-            },
-            {
-                "source": "https://twitter.com/barabasi/status/1250789854469861377",
-                "name": "twitter"
-            }
-        ]
-    },
-    {
-        "type": "preprint",
-        "year": 2021,
         "topics": ["Machine Learning", "Data Science"],
         "image": "images/l2p_fig.png",
         "text": "<b>L2P: Algorithm for estimating heavy-tailed outcomes</b><br>Wang X., <u>Varol O.</u>, Eliassi-Rad T.<br><i>Under review</i>",
@@ -47,6 +43,31 @@
             {
                 "source": "http://xindi-dumbledore.github.io/L2P",
                 "name": "Website"
+            }
+        ]
+    },
+    {
+        "type": "journal",
+        "year": 2021,
+        "topics": ["Network Science"],
+        "image": "images/covid-barabasi.png",
+        "text": "<b>Network Medicine Framework for Identifying Drug Repurposing Opportunities for COVID-19</b><br>Gysi D., Do Valle I., Zitnik M., Ameli A., Gan X., <u>Varol O.</u>, Sanchez H., Baron R., Ghiassian D., Loscalzo J., Barabasi AL.<br><i>Under review</i>",
+        "links": [
+            {
+                "source": "https://www.pnas.org/content/118/19/e2025581118",
+                "name": "Journal"
+            },
+            {
+                "source": "https://arxiv.org/abs/2004.07229",
+                "name": "ArXiv"
+            },
+            {
+                "source": "https://twitter.com/barabasi/status/1250789854469861377",
+                "name": "twitter"
+            },
+            {
+                "source": "bibtex/covid2021pnas.bib",
+                "name": "BibTeX"
             }
         ]
     },
