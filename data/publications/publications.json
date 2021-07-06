@@ -2,6 +2,19 @@
     {
         "type": "preprint",
         "year": 2021,
+        "topics": ["Comp. Soc. Sci."],
+        "image": "images/fairnet2021.png",
+        "text": "<b>Information Access Equality on Network Generative Models</b><br>Wang X., <u>Varol O.</u>, Eliassi-Rad T.<br><i>Under review</i>",
+        "links":[
+            {
+                "source": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3880680",
+                "name": "SSRN"
+            }
+        ]
+    },
+    {
+        "type": "preprint",
+        "year": 2021,
         "topics": ["Data Science"],
         "image": "images/covid19misinfo.png",
         "text": "<b>Misinformation, Believability, and Vaccine Acceptance Over 40 Countries: Takeaways From the Initial Phase of The COVID-19 Infodemic</b><br>Singh K., Lima G., Cha M., Cha C., Kulshrestha J., Ahn Y. Y., and <u>Varol O.</u><br><i>Under review</i>",
