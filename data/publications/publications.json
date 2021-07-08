@@ -7,6 +7,10 @@
         "text": "<b>Information Access Equality on Network Generative Models</b><br>Wang X., <u>Varol O.</u>, Eliassi-Rad T.<br><i>Under review</i>",
         "links":[
             {
+                "source": "https://arxiv.org/abs/2107.02263",
+                "name": "ArXiv"
+            },
+            {
                 "source": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3880680",
                 "name": "SSRN"
             }
