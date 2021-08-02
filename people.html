@@ -85,7 +85,7 @@
 
             function prepare_user_cards(profiles){
                 console.log(profiles);
-                var typeRank = ['PI','PhD','MSc','Undergraduate','Collaborator','Alumni'];
+                var typeRank = ['PI','PhD',"Master's",'Undergraduate','Collaborator','Alumni'];
                 console.log(typeRank);
 
                 var mstr = '';
@@ -98,7 +98,7 @@
 
                     if(plist.length > 0){
                         var extension = '';
-                        if (['PhD','MSc','Undergraduate'].includes(typeRank[t])){
+                        if (['PhD',"Master's",'Undergraduate'].includes(typeRank[t])){
                             extension = ' students';
                         }
                         if (typeRank[t] == 'Collaborator'){

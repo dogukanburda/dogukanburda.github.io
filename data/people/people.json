@@ -62,7 +62,7 @@
     {
         "id": "btemel",
         "name": "Barış Temel",
-        "role": "MSc",
+        "role": "Master's",
         "img": "pictures/baris-temel.png",
         "about": "Data Science MSc student",
         "links": {
@@ -78,7 +78,7 @@
     {
         "id": "msoruklu",
         "name": "Mutlu Soruklu",
-        "role": "MSc",
+        "role": "Master's",
         "img": "pictures/mutlu-soruklu.jpg",
         "about": "Data Science MSc student",
         "links": {
@@ -95,7 +95,7 @@
     {
         "id": "ocseckin",
         "name": "Özgür Can Seçkin",
-        "role": "MSc",
+        "role": "Master's",
         "img": "pictures/ozgur-can-seckin.jpg",
         "about": "Data Science MSc student",
         "links": {
@@ -110,7 +110,7 @@
     {
         "id": "dbayik",
         "name": "Davut Bayık",
-        "role": "MSc",
+        "role": "Master's",
         "img": "pictures/davut-bayik.jpg",
         "about": "Data Science MSc student",
         "links": {
@@ -126,7 +126,7 @@
     {
         "id": "oyargi",
         "name": "Özgün Yargı",
-        "role": "MSc",
+        "role": "Master's",
         "img": "pictures/ozgun-yargi.jpg",
         "about": "Data Science MSc student",
         "links": {
@@ -142,7 +142,7 @@
     {
         "id": "uduygu",
         "name": "Umut Duygu",
-        "role": "MSc",
+        "role": "Master's",
         "img": "pictures/umut-duygu.jpeg",
         "about": "Political Science MA student",
         "links": {
@@ -158,7 +158,7 @@
     {
         "id": "mozturk",
         "name": "Mert Öztürk",
-        "role": "MSc",
+        "role": "Master's",
         "img": "pictures/mert-ozturk.jpg",
         "about": "Data Science MSc student",
         "links": {
