@@ -210,7 +210,22 @@
         },
         "bio": "As an undergraduate Computer Science student at Sabancı University, Omay Ece Ayyıldız is specifically interested in computer science’s intersection with social contexts; especially social inequalities. She has conducted research in gender equality and wrote articles about artificial intelligence developments.",
         "education": []
-    }
+    },
 
+    {
+        "id": "fokuyucu",
+        "name": "Furkan Okuyucu",
+        "role": "Master's",
+        "img": "pictures/furkan-okuyucu.jpg",
+        "about": "Data Science MSc student",
+        "links": {
+            "linkedin": "https://www.linkedin.com/in/furkan-okuyucu-004b24163/",
+            "github": "https://github.com/bubblecounter"
+        },
+        "bio": "Furkan Okuyucu is a Data Science MSc. student at Sabanci University. He received his bachelor’s degree in Computer Science and Engineering from Sabanci University. He worked on computer networks on his graduation project. He presented the result of this work on Balkancom19 conference in Skopje. On his graduate course projects he worked on parallel architectures, convolutional neural networks, generative adversarial networks. He is also a data scientist at Oredata. He is currently carrying out his master’s thesis on coordinated activity detection on social media with Dr. Onur Varol.",
+        "education": [
+            "BSc in Computer Science, Sabanci University, 2020"
+        ]
+    }
 
 ]
