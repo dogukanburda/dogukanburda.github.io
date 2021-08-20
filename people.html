@@ -29,15 +29,31 @@
         <title>VRL Lab Members</title>
 
         <script type="text/javascript">
-            function modalBtnClick(elem){
-                console.log(elem);
+
+            function draw_note(profile){
+                divStr = '<div class="card" style="width: 12rem; margin-left:1em;" ><img class="card-img-top" src="data/people/' + profile['img'] + '"> <div class="card-body">';
+
+                divStr += '<a data-toggle="modal" style="width:100%; color:#002776; margin-top:5px; text-align:center;" data-target="#'+ profile['id'] +'">' + profile['name'] + '</a>';
+
+                divStr += '<div class="modal fade" id="' + profile['id']+ '" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="exampleModalLongTitle">' + profile['name'] + '</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button></div> <div class="modal-body"><b>Biography</b><p class="text-justify">' + profile['bio'] + '</p>';
+
+                if (profile['education'].length > 0){
+                    divStr += '<b>Education</b><br>';
+                    for (var t=0; t < profile['education'].length; t++) {
+                        divStr += '<small><i class="fas fa-graduation-cap"></i> ' + profile['education'][t] + '</small><br>';
+                    }
+                }
+
+                divStr += "<br><div align='center'>" + get_link_html(profile) + "</div>";
+
+                divStr += '</div></div></div></div>';
+
+                divStr += '</div></div>';
+                return divStr;
             }
 
-            function draw_card(profile){
-                divStr = '<div class="card" style="width: 18rem; margin-left:1em;"><img class="card-img-top" src="data/people/' + profile['img'] + '" alt="Card image cap"> <div class="card-body">';
-                divStr += '<h5 class="card-title">' + profile['name'] + '</h5>';
-                divStr += '<p class="card-text">' + profile['about'] + '</p>';
-            
+            function get_link_html(profile){
+                divStr = '';
                 if('email' in profile['links']) {
                     divStr += '<a href="mailto:' + profile['links']['email'] + '" target="_blank" style="margin-right:5px;"><i class="fas fa-envelope fa-2x"></i></a>'
                 }
@@ -65,6 +81,15 @@
                 if('github' in profile['links']) {
                     divStr += '<a href="' + profile['links']['github'] + '" target="_blank" style="margin-right:5px;"><i class="fab fa-github fa-2x"></i></a>'
                 }
+                return divStr
+            }
+
+            function draw_card(profile){
+                divStr = '<div class="card" style="width: 18rem; margin-left:1em;"><img class="card-img-top" src="data/people/' + profile['img'] + '" alt="Card image cap"> <div class="card-body">';
+                divStr += '<h5 class="card-title">' + profile['name'] + '</h5>';
+                divStr += '<p class="card-text">' + profile['about'] + '</p>';
+            
+                divStr += get_link_html(profile);
 
                 divStr += '<button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" style="width:100%; color:#002776; margin-top:5px;" data-target="#'+ profile['id'] +'"><i class="fas fa-expand-arrows-alt"></i> More details</button>';
 
@@ -76,6 +101,8 @@
                         divStr += '<small><i class="fas fa-graduation-cap"></i> ' + profile['education'][t] + '</small><br>';
                     }
                 }
+
+                divStr += "<br><div align='center'>" + get_link_html(profile) + "</div>";
 
                 divStr += '</div></div></div></div>';
 
@@ -104,11 +131,19 @@
                         if (typeRank[t] == 'Collaborator'){
                             extension = 's';
                         }
+                        if (typeRank[t] == 'Alumni'){
+                            extension = ' and past collaborators';
+                        }
+
                         
                         mstr += '<h3>' + typeRank[t] + extension + '</h3><div class="card-columns">';
                         //mstr += '<div class="card-columns">';
                         for (var i=0; i<plist.length; i++){
-                            mstr += draw_card(plist[i]);
+                            if (typeRank[t] !== 'Alumni'){
+                                mstr += draw_card(plist[i]);
+                            }else{
+                                mstr += draw_note(plist[i]);
+                            }
                         }
                         mstr += '</div>';
                     }

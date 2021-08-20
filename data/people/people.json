@@ -99,6 +99,7 @@
         "img": "pictures/ozgur-can-seckin.jpg",
         "about": "Data Science MSc student",
         "links": {
+            "website": "https://www.ozgurcanseckin.com/",
             "linkedin": "https://www.linkedin.com/in/%C3%B6zg%C3%BCr-can-se%C3%A7kin-443056134/"
         },
         "bio": "Özgür Can Seçkin is a MSc Data Science student at Sabancı University. He started working on sentiment analysis with NLP, other machine learning algorithms and web scraping while he was doing his undergraduate in Galatasaray University Economics. After graduation, he got a job at İş Bankası as a credit analyst, where he was involved in projects about credit risk evaluation, monitoring and loan automation. His objective is to create a better understanding about how society works, using data.",
@@ -173,16 +174,17 @@
     {
         "id": "gozgun",
         "name": "Güneş Başak Özgün",
-        "role": "Undergraduate",
+        "role": "Alumni",
         "img": "pictures/gunes-basak-ozgun.jpg",
         "about": "Computer Science & Engineering BSc student",
         "links": {
             "linkedin": "https://www.linkedin.com/in/g%C3%BCne%C5%9F-%C3%B6zg%C3%BCn-6724b9151",
             "github": "https://github.com/gozgun"
         },
-        "bio": "Güneş Başak Özgün is a senior Mechatronics Engineering and Computer Science & Engineering double major student at Sabancı University. She is currently interested in computational social science focused on music. Her interest stems from her goal to learn more about the connection between social sciences and computer science. She is conducting research with Dr. Onur Varol on the relationship between binaural characteristics of playlists on Spotify and their popularity.",
+        "bio": "Güneş Başak Özgün is a senior Mechatronics Engineering and Computer Science & Engineering double major student at Sabancı University. She is currently interested in computational social science focused on music. Her interest stems from her goal to learn more about the connection between social sciences and computer science. She conducted research with Dr. Onur Varol on the relationship between binaural characteristics of playlists on Spotify and their popularity.",
         "education": [
-            "BSc in Mechatronics Engineering, Sabanci University, 2020"
+            "BSc in Mechatronics Engineering, Sabanci University, 2020",
+            "BSc in Computer Science, Sabanci University, 2021"
         ]
     },
 
@@ -225,6 +227,22 @@
         "bio": "Furkan Okuyucu is a Data Science MSc. student at Sabanci University. He received his bachelor’s degree in Computer Science and Engineering from Sabanci University. He worked on computer networks on his graduation project. He presented the result of this work on Balkancom19 conference in Skopje. On his graduate course projects he worked on parallel architectures, convolutional neural networks, generative adversarial networks. He is also a data scientist at Oredata. He is currently carrying out his master’s thesis on coordinated activity detection on social media with Dr. Onur Varol.",
         "education": [
             "BSc in Computer Science, Sabanci University, 2020"
+        ]
+    },
+
+    {
+        "id": "eotenen",
+        "name": "Ege Ötenen",
+        "role": "Collaborator",
+        "img": "pictures/ege-otenen.jpg",
+        "about": "Cognitive Psychology  MA student",
+        "links": {
+            "website": "http://www.egeotenen.com/",
+            "linkedin": "https://www.linkedin.com/in/ege-otenen-1a89b1149/"
+        },
+        "bio": "Ege is currently continuing her MA in Cognitive Psychology at Sabanci University. She is graduated from Middle East Technical University. She is mainly interested in autobiographical memory,  individual differences, visual imagery, spatial ability. She is enthusiastic about learning different techniques, and she aims to combine her memory research with computational methods.  She is working with Dr. Onur Varol and her teammates on a project about Vaccine Perception, which she presented at Summer Institute in Computational Social Science (SICSS, 2021).",
+        "education": [
+            "BA in Psychology, Middle East Technical University, 2020"
         ]
     }
 
