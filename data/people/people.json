@@ -163,6 +163,7 @@
         "img": "pictures/mert-ozturk.jpg",
         "about": "Data Science MSc student",
         "links": {
+            "website": "https://merttozturrk.github.io/",
             "linkedin": "https://www.linkedin.com/in/merttozturrk/"
         },
         "bio": "Mert Ozturk is currently continuing his MSc in Data Science at Sabanci University. He received a bachelor's degree in Statistics from Middle East Technical University in 2020. During his undergraduate education, he participated in several projects which use statistical analysis methods and machine learning algorithms and, he had the chance to work with different datasets from various fields such as economics, psychology, and mobile applications. Currently, He conducts research on the fluctuation of the sentiments of Twitter users.",
