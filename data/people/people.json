@@ -255,6 +255,7 @@
         "img": "pictures/dogukan-kefeli.jpg",
         "about": "Physics Engineering  BSc student",
         "links": {
+            "website": "https://dogukanburda.github.io/",
             "github": "https://github.com/dogukanburda/",
             "linkedin": "https://www.linkedin.com/in/dogukankefeli/"
         },
