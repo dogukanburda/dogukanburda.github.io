@@ -112,7 +112,7 @@
 
             function prepare_user_cards(profiles){
                 console.log(profiles);
-                var typeRank = ['PI','PhD',"Master's",'Undergraduate','Collaborator','Alumni'];
+                var typeRank = ['PI','PhD',"Master's",'Undergraduate','Collaborator','Alumni','Intern'];
                 console.log(typeRank);
 
                 var mstr = '';
@@ -133,6 +133,9 @@
                         }
                         if (typeRank[t] == 'Alumni'){
                             extension = ' and past collaborators';
+                        }
+                        if (typeRank[t] == 'Intern'){
+                            extension = 's';
                         }
 
                         
