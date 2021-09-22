@@ -246,6 +246,21 @@
         "education": [
             "BA in Psychology, Middle East Technical University, 2020"
         ]
+    },
+
+    {
+        "id": "okefeli",
+        "name": "Osman Doğukan Kefeli",
+        "role": "Collaborator",
+        "img": "pictures/dogukan-kefeli.jpg",
+        "about": "Physics Engineering  BSc student",
+        "links": {
+            "website": "https://dogukanburda.github.io/",
+            "github": "https://github.com/dogukanburda/",
+            "linkedin": "https://www.linkedin.com/in/dogukankefeli/"
+        },
+        "bio": "Dogukan is a Physics Engineering student at Istanbul Technical University. Worked on nuclear instrumentation on his graduation thesis in ITU. Currently working on computer vision and deep learning. ",
+        "education": []
     }
 
 ]
