@@ -4,6 +4,13 @@
 body {
   font-family: monospace
 }
+.markdown-body {
+    box-sizing: border-box;
+    min-width: 200px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+  }
 </style>
 <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/eye-in-speech-bubble_1f441-fe0f-200d-1f5e8-fe0f.png">
 <title>dogukanburda</title>
@@ -20,8 +27,31 @@ i also have a softcore *p0rn* catalog <a href="https://www.instagram.com/dogukan
 <big><big>&lt;big&gt;<a href="https://www.instagram.com/dogukanburda/">FOLLOW ME ON INSTAGRAM</a>&lt;/big&gt;</big></big>
 </big></big></big></big>
 <br/><br/>
+<p>Here is a kanye quote for you: </p>
+<div class="markdown-body" id="#" ></div>
+  
+<br/><br/>
 check my playlists
 
 
 <iframe src="https://open.spotify.com/embed/playlist/7jXGl3QTAHEEm9YbzP18IS?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 <iframe src="https://open.spotify.com/embed/playlist/6o2BKydochRH7K1YAbvXPb" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<script>
+const kanye = document.querySelector('div');
+const kanyedisplay = document.querySelector('div');
+kanye.reload = function() {
+  requesting(verse);
+};
+function requesting() {
+  fetch('http://api.kanye.rest')
+.then(function(response) {
+  return response.json();
+})
+.then(function(jsonResponse) {
+  kanye.value=jsonResponse.quote
+  kanyedisplay.textContent = jsonResponse.quote;
+});
+};
+requesting();
+
+</script>
